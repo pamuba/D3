@@ -3,6 +3,41 @@
 <head>
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <title>Document</title>
+    <style>
+        div{
+            border:2px solid red;
+            margin: 20px;
+            padding:10px;
+        }
+        /* p{
+            color:blue;
+        }
+        #parent3{
+            background: pink;
+        }
+        .parent{
+            background: purple;
+        } */
+
+        /* [class]{
+            background: pink;
+        } */
+        /* div[id=parent1]{
+            background: pink;
+        } */
+        /* div:not(#parent1){
+            background: pink;
+        } */
+        /* div[id^=par]{
+            background: pink;
+        } */
+        /* div[id*=par]{
+            background: pink;
+        } */
+        div[id$="2"]{
+            background: pink;
+        }
+    </style>
 </head>
 <body>
     <div id="parent1" class="parent">
